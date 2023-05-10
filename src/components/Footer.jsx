@@ -13,7 +13,7 @@ const Footer = () => {
               <a href="mailto:talent@6ixelement.club" target="_blank" rel="noreferrer"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" className="mx-4 hover:text-gray-400 fill-current"><path d="M20.4 4H3.6C2.04 4 1 5.04 1 6.6v10.8c0 1.56 1.04 2.6 2.6 2.6h16.8c1.56 0 2.6-1.04 2.6-2.6V6.6c0-1.56-1.04-2.6-2.6-2.6zM12 13.8L3.6 8h16.8L12 13.8zm0-2.4L20.4 6H3.6L12 11.4z"></path></svg></a>
     </div>
   <div className="text-center mt-4">
-  <img src="https://6ixelement.club/images/logo-white.svg" className="h-8 inline-block text-center" alt="6ixElement Logo" />
+  
   <br/><br />
   <p>&copy; 2023 Developer - C.Mangorima.</p>
   </div>

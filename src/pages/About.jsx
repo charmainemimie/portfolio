@@ -1,14 +1,14 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 const About = () => (
-  <div className="pt-12">
+  <div className="pt-12 border">
     <Header />
     <h1 className="text-2xl decoration-blue-950 font-bold font-mono">
       About Charmaine Mangorima
     </h1>
     <div className=" pt-12 ">
       <div className="">
-        <p className="font-mono text-xl">
+        <p className=" text-xl">
         Hello and welcome 😃 !
         <br /><br />
           My name is Charmaine, and I am a Graduate Software Engineer. I am
