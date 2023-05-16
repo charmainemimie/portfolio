@@ -1,16 +1,33 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+
+import {
+  FaJava,
+  FaPython,
+  FaReact,
+  FaHtml5,
+  FaCss3,
+  FaBootstrap,
+} from "react-icons/fa";
+import {
+  SiCplusplus,
+  SiJavascript,
+  SiTailwindcss,
+  SiOcaml,
+} from "react-icons/si";
+
 const About = () => (
   <div className="pt-12 border">
     <Header />
     <h1 className="text-2xl decoration-blue-950 font-bold font-mono">
-      About Charmaine Mangorima
+      <marquee> About Charmaine Mangorima</marquee>
     </h1>
-    <div className=" pt-12 ">
+    <div className=" pt-4">
       <div className="">
         <p className=" text-xl">
-        Hello and welcome 😃 !
-        <br /><br />
+          Hello and welcome 😃 !
+          <br />
+          <br />
           My name is Charmaine, and I am a Graduate Software Engineer. I am
           passionate about technology and its ability to make a positive impact
           on society. I have a Bachelor of Science degree in Information Systems
@@ -37,12 +54,52 @@ const About = () => (
           hesitate to reach out!
         </p>
       </div>
-      <div className=" ">
-        <img
-          src="https://6ixelement.club/images/about-image.jpg"
-          alt=""
-          className="pt-8 "
-        />
+
+      <div className="flex flex-wrap gap-5 border mt-4">
+        <div className=" ">
+          <img
+            src="https://lh3.googleusercontent.com/pw/AJFCJaV3jxu_MW3d81c8xDCEJXaSoh0vUwNA0XmpgGlmNv8ms0ui4RCF8pcN8ji1pumCCZnepIG7GNLcsnimkxII5FEV-AonhgzQUEQVSRag60zQIxmLRRtjpPo2cWzg2GcdNmYp5Arwom7sq9kS0ZWr12Qb-FV4_Vao_K3SULa_XKODSL1Aw_qgKunWuom1Z7zYyW8VgEeKSyNXz_F6p9WMBxIIjhodOgY6kixnh4YxDRZwEXLogbfeTZyQBmurHRvTRT1JR2YsN4ucfi9gdmwOElRY3Sqq5ZhUhXrleyHmBQ9Eug1z3brpeWvmR2KJWpzY2KmE0lH1itJqWcbpcVadalyGWiaemoI0r7vw9oGxZT9nfQD-EZ_6bQTMtc-bMIJDbg7uX1xdi5O4fgp06zIUIxqBaaFuIRqgF09FVYVfV0HnPjZ62SkOr_oykzsQXWvrSpuq5b0QcTE1HKd-VAUoZhsOMo_V1k5RBrGaTLkrYXjYggt0m_VXrbL2U5gUyApnKoEgHhwd23JtY14EUr1DYZxRX4ArbcR2YzFndaixBOIsNyUGn0nbxraQbrCmX5ZMlYjytNtGo_mLUgrFYMPajUiQkafMObEL6xaBHtR6WSkcxm3xtkhL30PTm-HEf38P8IpAye8QQSBBiFTI1sP36u4Q4wxCul4akf0afbiBFsp7MkX-GB1httro7SLbXph_Q56kr9oeyyAaXjHI0RCgLQ5BAfYr-v86y38354d7SZVN_ceiBkOooZ7svt34Mo8Xt5Itgr-hv0xqfpcfYo45VqJ8shp7igixipIkqgoJ7bVlslbB6FeGBkHpUs0kZ-1-DPtVfElkHhX_Dar8L4cERFyFMERiJPkRKg07HvXUOgTMzo0rKTXcAMQkuZZ0nWhIFy7Oz7MK_0SrzqWLdCHnEA7vYSmBInux3jHfRdzzKqgiP7tM-Jbz3S_Ubsbu-nqd=w500-h667-s-no?authuser=0"
+            alt="Charmaine"
+            className="pt-8 pb-12"
+          />
+        </div>
+
+        <div className="pl-64">
+          <br />
+          <strong>
+            <p className="pb-3">Skills</p>
+          </strong>
+          <p className="flex gap-4 pb-3 text-2xl">
+            <FaJava className="text-2xl" /> Java
+          </p>
+          <p className="flex gap-4 pb-3 text-2xl">
+            <SiCplusplus className="text-2xl" /> C/C++
+          </p>
+          <p className="flex gap-4 pb-3 text-2xl">
+            <FaPython className="text-2xl" /> Python
+          </p>
+          <p className="flex gap-4 pb-3 text-2xl">
+            <SiJavascript className="text-2xl" /> JavaScript
+          </p>
+          <p className="flex gap-4 pb-3 text-2xl">
+            <FaReact className="text-2xl" /> React
+          </p>
+          <p className="flex gap-4 pb-3 text-2xl">
+            <FaHtml5 className="text-2xl" /> HTML
+          </p>
+          <p className="flex gap-4 pb-3 text-2xl">
+            <FaCss3 className="text-2xl" /> CSS
+          </p>
+          <p className="flex gap-4 pb-3 text-2xl">
+            <SiTailwindcss className="text-2xl" /> TailwindCSS
+          </p>
+          <p className="flex gap-4 pb-3 text-2xl">
+            <SiOcaml className="text-2xl" /> Ocaml
+          </p>
+          <p className="flex gap-4 pb-3 text-2xl">
+            <FaBootstrap className="text-2xl" /> Bootstrap
+          </p>
+        </div>
       </div>
     </div>
 
