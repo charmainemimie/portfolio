@@ -1,5 +1,5 @@
 import { works } from "./fileObjects/cards";
-import  Expand  from "./Expand";
+
 
 const Works = () => {
   return (
@@ -26,7 +26,7 @@ const Works = () => {
         );
       })}
     </div>
-    <Expand/>
+   
     </>
   );
 };
