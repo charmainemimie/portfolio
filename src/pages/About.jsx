@@ -55,8 +55,8 @@ const About = () => (
           </div>
           </div>
 
-      <div className="flex flex-wrap gap-5 border mt-4">
-        <div className=" ">
+      <div className="flex flex-wrap border mt-4 mx-12">
+        <div className=" w-[35%] ">
           <img
             src="https://lh3.googleusercontent.com/pw/AJFCJaVZbmZd_eSL6zHQVu0KN_iCuapLo-0sLQqhIGHUNGNGNoUwPumStr67DPjzjNE2vaOA83Abwf3PRBUTx6Am-7sDsFP17vCCdJYmHnLOHXu4GA4gmAAmro0SJboxwlSooRIbW3lLzBAMMu6LiT_DMn-jy5NAfKvAofw6Y4wifHhbSbbdTVD76nvJGaKpCUw82X4cuOgUIENhPexQs_RbJyM8QFK_7UTkoBKrzxHZ4t8XFihVJ3gVOa3LMj_JLsIjTiPa5fEJiG0JmF3G2m1jO-qzgDw57RUkWc_ARTzttknPPmWt6byRkhC90c5B8-42JdL3QX6IjPkBZ_W8zY9r3LlFfGFPCaNfJ6cFi1RrU8giBqI08pzAl2tMXg_I8vEndSnkRdQZ4rIMgpgPd-HLcudgSsVAEiQFKcmhrUlQcduUB38FNcBDvrmiH4lkuRv8Xfqp9Lyj6PAEQU32bWMkx7JZuz7CsdX7GeiMyqPPs2hrw1u-UN2pZvaD3tuhJT2lU4umviwUoQQ3m77hEuS7JcG6-AEClxK23CkhIK_mcwSkAeodeGxXXpkFpxuJrQaRDe1aZrpXfC9H4lTk8x8qsAMAh3tCVzUQfCF5S8ARbqz8efpHAsP35PQK31NTPEnGhlKmLRlE6RUKEe_CSA0ol3FehMp8ul5YkO4eU4USnWszWXGEOjUQAi-LQURlptnO1kCCj3TRKDnZPhzRLUnGG_KnsNxeB-_5Y3ENJP27b1KkJ7vz5dtB9ZQlvaZMBPd91JhABEGdFzQJCzsLj-t9hbaUJwdlD8kB6gg8LwlY5-SAFdq9SmikF1Q6pb7cIzAZE-3O5udtQNyYkyJk4e0kQHdetsQvlVmGNbkh3rmVcAHIUJmmHMC1k0miNo_-tyKa5SAanCWdF8RVmqL8HcNBkJAdJE2_E-R8wBKLFz_5QPbCsWtRzBxNB-AiTfUZBdhX=w632-h667-s-no?authuser=0"
             alt="Charmaine"
