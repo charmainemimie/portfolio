@@ -20,7 +20,6 @@ import {
 
 const About = () => (
   <div className="pt-12 border">
-    <Header />
     <h1 className="text-2xl decoration-blue-950 font-bold font-mono">
       <marquee> About Charmaine Mangorima</marquee>
     </h1>

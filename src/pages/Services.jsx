@@ -6,7 +6,7 @@ const Services = () => {
     <>
     
 
-      <br /><br /><h2 className="center text-2xl decoration-blue-950 font-bold font-mono">Here are some of the services that I offer...</h2><br />
+      <br /><br /><h2 className="text-center text-2xl decoration-blue-950 font-bold font-mono">Here are some of the services that I offer...</h2><br />
     <div className="border border-radius-12 flex flex-wrap justify-between pb-3">
      
             
