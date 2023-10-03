@@ -4,7 +4,7 @@ import { works } from "./fileObjects/cards";
 const Works = () => {
   return (
     <>
-          <br /><h2 className="center text-2xl decoration-blue-950 font-bold font-mono">My Portfolio</h2>
+          <br /><h2 className="text-center text-2xl decoration-blue-950 font-bold font-mono">My Portfolio</h2>
     <div className="border border-radius-12 flex flex-wrap justify-between pb-3">
       {works.map((item) => {
         return (
