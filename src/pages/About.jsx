@@ -87,7 +87,7 @@ const About = () => (
           Software Engineer. I am passionate about technology and its ability to
           make a positive impact on society. I have a Bachelor of Science degree
           in Information Systems and Software Engineering from University of
-          Boumerdes ,Algeria and I am about to graduate with a Master of Science
+          Boumerdes ,Algeria and I graduated with a Master of Science
           degree in Software Engineering and Information Processing from the
           same university. I am excited to begin my career in the field.
         </div>
