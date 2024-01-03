@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import Mimie from '../assets/mimie.jpg'
+import cv from '../assets/RESUME_MANGORIMA_CHARMAINE_S.pdf'
 const Hero = () => {
   return (
 
@@ -11,7 +12,11 @@ const Hero = () => {
             
             <Link to='/about' className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
                 Learn more about me
-            </Link> 
+            </Link> <br /><br />
+
+            <a target="_blank" href={cv} className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800" rel="noreferrer">
+                Download My Resume
+            </a>
         </div>
         <div className="hidden lg:mt-0 lg:col-span-5 lg:flex pr-4">
             <img src={Mimie} alt="mimie" />

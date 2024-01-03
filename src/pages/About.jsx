@@ -1,4 +1,4 @@
-import Header from "../components/NavigBar";
+//import Header from "../components/NavigBar";
 import Footer from "../components/Footer";
 
 import {
@@ -23,7 +23,7 @@ const About = () => (
     <h1 className="text-2xl decoration-blue-950 font-bold font-mono">
       <marquee> About Charmaine Mangorima</marquee>
     </h1>
-    <div className=" pt-4">
+    <div className=" pt-4 lg:px-16">
       <strong>
         <u>
           <p className="pb-3">Languages and Frameworks</p>
@@ -81,8 +81,8 @@ const About = () => (
       </div>
       <br />
 
-      <div className="flex lg:w-1/2 justify-start text-left">
-        <div className="flex-item">
+      
+        <div className="mx-4 md:mx-8 lg:mx-16 xl:mx-32 pb-8">
           Hello and welcome 😃 ! My name is Charmaine, and I am a Graduate
           Software Engineer. I am passionate about technology and its ability to
           make a positive impact on society. I have a Bachelor of Science degree
@@ -90,11 +90,11 @@ const About = () => (
           Boumerdes ,Algeria and I graduated with a Master of Science
           degree in Software Engineering and Information Processing from the
           same university. I am excited to begin my career in the field.
-        </div>
-      </div>
-      <br />
-      <div className="flex justify-end lg:w-1/2 ml-auto text-left pb-12">
-        <div className="flex-item">
+       
+      
+      <br /><br />
+      
+        
           During my studies, I gained experience in various programming
           languages such as Java, Python, and JavaScript, and I have worked on
           projects ranging from simple console applications to full-stack web
@@ -108,8 +108,8 @@ const About = () => (
           portfolio to learn more about my experience and skills. If you have
           any questions or would like to connect, please don&apos;t hesitate to
           reach out!
-        </div>
-      </div>
+          </div>
+     
     </div>
 
     <Footer />
