@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import Mimie from '../assets/mimie.jpg'
-import cv from '..assets/CV CharmaineSMangorima.pdf'
+import cv from '../assets/CV CharmaineSMangorima.pdf'
 const Hero = () => {
   return (
 
