@@ -42,8 +42,8 @@ export const works = [
     id: 5,
     src: studyapp,
     nom: " Study App(in progress)",
-    link: "https://6six.netlify.app/",
-    alt: "sixelement"
+    link: "https://studiesapp.netlify.app/",
+    alt: "studyapp"
   },
   {
     id: 6,
