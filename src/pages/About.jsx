@@ -32,51 +32,51 @@ const About = () => (
 
       <div className="flex flex-wrap ">
         <p className="flex gap-4  text-2xl">
-          <FaJava className="text-2xl" /> Java, &nbsp;
+          <FaJava className="text-2xl" />  &nbsp;
         </p>
         <p className="flex gap-4  text-2xl">
           &nbsp;
-          <SiCplusplus className="text-2xl" /> C/C++, &nbsp;
+          <SiCplusplus className="text-2xl" /> &nbsp;
         </p>
         <p className="flex gap-4  text-2xl">
           &nbsp;
-          <FaPython className="text-2xl" /> Python, &nbsp;
+          <FaPython className="text-2xl" />  &nbsp;
         </p>
         <p className="flex gap-4  text-2xl">
           &nbsp;
-          <SiJavascript className="text-2xl" /> JavaScript, &nbsp;
+          <SiJavascript className="text-2xl" />  &nbsp;
         </p>
         <p className="flex gap-4  text-2xl">
           &nbsp;
-          <FaReact className="text-2xl" /> React, &nbsp;
+          <FaReact className="text-2xl" />  &nbsp;
         </p>
         <p className="flex gap-4  text-2xl">
           &nbsp;
-          <FaHtml5 className="text-2xl" /> HTML, &nbsp;
+          <FaHtml5 className="text-2xl" />  &nbsp;
         </p>
         <p className="flex gap-4 pb-3 text-2xl">
           &nbsp;
-          <FaCss3 className="text-2xl" /> CSS, &nbsp;
+          <FaCss3 className="text-2xl" />  &nbsp;
         </p>
         <p className="flex gap-4  text-2xl">
           &nbsp;
-          <FaPhp className="text-2xl" /> PHP, &nbsp;
+          <FaPhp className="text-2xl" />  &nbsp;
         </p>
         <p className="flex gap-4  text-2xl">
           &nbsp;
-          <SiMysql className="text-2xl" /> MySQL, &nbsp;
+          <SiMysql className="text-2xl" />  &nbsp;
         </p>
         <p className="flex gap-4  text-2xl">
           &nbsp;
-          <SiTailwindcss className="text-2xl" /> TailwindCSS, &nbsp;
+          <SiTailwindcss className="text-2xl" />  &nbsp;
         </p>
         <p className="flex gap-4  text-2xl">
           &nbsp;
-          <SiOcaml className="text-2xl" /> Ocaml, &nbsp;
+          <SiOcaml className="text-2xl" /> &nbsp;
         </p>
         <p className="flex gap-4  text-2xl">
           &nbsp;
-          <FaBootstrap className="text-2xl" /> Bootstrap, &nbsp;
+          <FaBootstrap className="text-2xl" /> &nbsp;
         </p>
       </div>
       <br />
