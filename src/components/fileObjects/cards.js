@@ -28,7 +28,7 @@ export const works = [
     id: 3,
     src: kurelogistics,
     nom: "Kure Logististics(in progress)",
-    link: "https://kurelogistics.netlify.app/",
+    link: "https://kure-logistics.netlify.app/",
     alt: "kurelogististics"
   },
   {
@@ -40,41 +40,48 @@ export const works = [
   },
   {
     id: 5,
+    src: studyapp,
+    nom: " Study App(in progress)",
+    link: "https://6six.netlify.app/",
+    alt: "sixelement"
+  },
+  {
+    id: 6,
     src: recipesearch,
     nom: " Recipe Search App",
     link: "https://charmainerecipesearch.netlify.app",
     alt: "recipe_search"
   },
   {
-    id: 6,
+    id: 7,
     src: weatherapp,
     nom: "Weather App",
     link: "https://chamaineweatherapp.netlify.app",
     alt: "Weather_App"
   },
   {
-    id: 7,
+    id: 8,
     src: calculatorapp,
     nom: "Calculator App",
     link: "https://charmainereactcalculator.netlify.app",
     alt:"calculator_app"
   },
   {
-    id: 8,
+    id: 9,
     src: mycv,
     nom: "My CV",
     link: "https://charmainecv.netlify.app",
     alt:"my_cv"
   },
   {
-    id: 9,
+    id: 10,
     src: mylinks,
     nom: "My LinkTree",
     link: "https://charmainelinks.netlify.app",
     alt: "mylinktree"
   },
   {
-    id: 10,
+    id: 11,
     src: todoapp,
     nom: "ToDo App",
     link: "https://charmainetodoapp.netlify.app",
