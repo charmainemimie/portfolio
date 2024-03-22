@@ -8,7 +8,7 @@ import todoapp from "../../assets/works/todoapp.png"
 import ortu from "../../assets/works/ortu.png"
 import hackathon from "../../assets/works/hackathonboard.png"
 import kurelogistics from "../../assets/works/kurelogistics.png"
-
+import studyapp from "../../assets/works/studyapp.png"
 export const works = [
   {
     id: 1,
