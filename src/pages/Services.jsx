@@ -1,81 +1,94 @@
 import Footer from "../components/Footer";
-import {FaBriefcase,FaTasks,FaKey} from "react-icons/fa"
-import{FiSmartphone} from "react-icons/fi"
+import { FaBriefcase, FaTasks, FaKey } from "react-icons/fa";
+import { FiSmartphone } from "react-icons/fi";
 const Services = () => {
   return (
+
+
     <>
-    
 
-      <br /><br /><h2 className="text-center text-2xl decoration-blue-950 font-bold font-mono">Here are some of the services that I offer...</h2><br />
-    <div className="border border-radius-12 flex flex-wrap justify-between pb-3">
-     
-            
-          <div className="p-10 gap-5 rounded overflow-hidden shadow-lg w-full sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-1/3 border">
-            <div className="flex items-center justify-center w-16 h-16 rounded-full border-4 border-blue-600 ml-28">
-                    <FaTasks/>
-                </div>
-            <h1 className="text-2xl text-blue-600">WEB DEVELOPMENT</h1>
-            <div className="flex items-center justify-center mt-2">
-                <p>
-                    My web development services focus on building custom web
-                    applications that are secure, scalable, and user-friendly. I am
-                    committed to using the latest technologies and best practices to
-                    develop high-quality web applications that exceed my clients&apos;
-                    expectations.
-                </p>
+    <div className="pt-6 text-2xl flex items-center justify-center ">
+      <h1>Here are some of the services that I offer</h1>
+    </div>
+      <div className="px-8 py-8 grid grid-cols-1 lg:grid-cols-3 gap-4 ">
+        <div>
+          <div className="max-w-full px-6 pt-6 pb-[49px] bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <div className="flex items-center justify-center text-blue-700 text-3xl pb-2">
+              <FaTasks />
             </div>
-          </div>
 
-          <div className="p-10 gap-5 rounded overflow-hidden shadow-lg w-full sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-1/3 border">
-          <div className="flex items-center justify-center w-16 h-16 rounded-full border-4 border-blue-600 ml-28">
-                    <FaBriefcase/>
-                </div>
-            <h1 className="text-2xl text-blue-600">WEB DESIGN</h1>
-            <div className="flex items-center justify-center mt-2">
-            <p>
-                I have expertise in web design, I specialize in creating visually
-                appealing and user-friendly websites. My services include designing
-                the layout and interface of web pages, selecting and customizing the
-                appropriate color schemes, fonts, and graphics, and ensuring the
-                website&apos;s overall functionality.
-        </p>
+            <h5 className="flex items-center justify-center mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
+              WEB DEVELOPMENT
+            </h5>
+
+            <p className="mb-3 font-normal text-gray-500 dark:text-gray-400">
+              My web development services focus on building custom web
+              applications that are secure, scalable, and user-friendly. I am
+              committed to using the latest technologies and best practices to
+              develop high-quality web applications that exceed my clients&apos;
+              expectations.
+            </p>
+          </div>
+        </div>
+
+        <div>
+          <div className="max-w-full px-6 pt-6 pb-[49px] bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <div className="flex items-center justify-center text-blue-700 text-3xl pb-2">
+              <FaBriefcase />
             </div>
-          </div>
 
-          <div className="p-10 gap-5 rounded overflow-hidden shadow-lg w-full sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-1/3 border">
-          <div className="flex items-center justify-center w-16 h-16 rounded-full border-4 border-blue-600 ml-28">
-                    <FiSmartphone/>
-                </div>
-            <h1 className="text-2xl text-blue-600">MOBILE APP DEVELOPMENT</h1>
-            <div className="flex items-center justify-center mt-2">
-                <p>
-                    I am currently working on my first android mobile application. My goal
-                    is to create engaging and user-friendly mobile applications for both
-                    iOS and Android platforms. I want to design the app&apos;s interface
-                    and user experience, developing the app&apos;s functionality, and
-                    ensuring compatibility across multiple devices.
-                </p>
+            <h5 className="flex items-center justify-center mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
+              WEB DESIGN
+            </h5>
+
+            <p className="mb-3 font-normal text-gray-500 dark:text-gray-400">
+              I have expertise in web design, I specialize in creating visually
+              appealing and user-friendly websites. My services include
+              designing the layout and interface of web pages, selecting and
+              customizing the appropriate color schemes, fonts, and graphics,
+              and ensuring the website&apos;s overall functionality.
+            </p>
+          </div>
+        </div>
+
+        <div>
+          <div className="max-w-full p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <div className="flex items-center justify-center text-blue-700 text-3xl pb-2">
+              <FiSmartphone />
             </div>
-          </div>
 
-          <div className="p-10 gap-5 rounded overflow-hidden shadow-lg w-full sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-1/3 border">
-          <div className="flex items-center justify-center w-16 h-16 rounded-full border-4 border-blue-600 ml-28">
-                    <FaKey/>
-                </div>
-            <h1 className="text-2xl text-blue-600">NETWORK AND COMPUTER SECURITY</h1>
-            <div className="flex items-center justify-center mt-2">
-                <p>
-                    I have knowledge in setting up local networks as well as securing them
-                    using firewalls such as Netfilter commands in Linux.
-                </p>
+            <h5 className="flex items-center justify-center mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
+              MOBILE APP DEVELOPMENT
+            </h5>
+
+            <p className="mb-3 font-normal text-gray-500 dark:text-gray-400">
+              I am currently working on my first android mobile application. My
+              goal is to create engaging and user-friendly mobile applications
+              for both iOS and Android platforms. I want to design the
+              app&apos;s interface and user experience, developing the
+              app&apos;s functionality, and ensuring compatibility across
+              multiple devices.
+            </p>
+          </div>
+        </div>
+
+        <div>
+          <div className="max-w-full px-6 pt-6 pb-[96px] bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <div className="flex items-center justify-center text-blue-700 text-3xl pb-2">
+              <FaKey />
             </div>
-          </div>
 
-    
-       
+            <h5 className="flex items-center justify-center mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
+              NETWORK AND COMPUTER SECURITY
+            </h5>
+
+            <p className="mb-3 font-normal text-gray-500 dark:text-gray-400">
+              I have knowledge in setting up local networks as well as securing
+              them using firewalls such as Netfilter commands in Linux.
+            </p>
+          </div>
+        </div>
       </div>
-
-      <Footer />
     </>
   );
 };
